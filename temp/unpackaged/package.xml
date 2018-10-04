@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demopackage</fullName>
+    <types>
+        <members>AccountProcessor</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Account.Number_of_Contacts__c</members>
+        <members>Registration_form__c.Available_on_Weekends__c</members>
+        <members>Registration_form__c.Hours_of_Study__c</members>
+        <members>Registration_form__c.Mobile_Number__c</members>
+        <members>Registration_form__c.Parents_name__c</members>
+        <members>Registration_form__c.class__c</members>
+        <members>Sector__c.Sector_Id__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Registration_form__c</members>
+        <members>Sector__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Registration_form__c-Registration Layout</members>
+        <members>Sector__c-Sector Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Registration_form__c.All</members>
+        <members>Sector__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>43.0</version>
+</Package>
