@@ -17,7 +17,7 @@
         password="${sf.password}"
         serverurl="${sf.serverurl}"
 	runAllTests="true"
-        deployRoot="src"/>
+        deployRoot="codepkg"/>
     </target> 
 
     <target name="deployEmptyCheckOnly">
@@ -28,7 +28,7 @@
           username="${sf.username}"
           password="${sf.password}"
           serverurl="${sf.serverurl}"
-          deployRoot="src"           
+          deployRoot="codepkg"           
           runAllTests="true" />
     </target>
 
